@@ -1,0 +1,47 @@
+.App {
+    text-align: center;
+}
+
+.picture-select {
+
+}
+
+.picture-select-all {
+    margin-bottom: 10px;
+
+}
+.picture-select-items{
+    display: flex;
+    justify-content:flex-start;
+}
+.picture-select-item {
+    width: 150px;
+    height:150px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.picture-select-item-top {
+    position: relative;
+    width: 120px;
+    height:120px
+}
+
+.picture-select-item-img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 120px;
+    height:120px
+}
+
+.picture-select-item-check {
+    position: absolute;
+    top: 5px;
+    left: 5px;
+}
+
+.picture-select-item-name {
+    margin-top: 10px;
+}
